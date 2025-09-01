@@ -1,0 +1,21 @@
+# User World & Data World
+
+Although Sanchez-Pulse was just a made up story of a simple data science project, it can teach us a lot about how to think about how to approach data science features for a product. First of all, in the example all of the data science work was in Data Land, going from Raw Data to Information and hoping that the information mapped well to the Solution Space.&#x20;
+
+All successful products should go from a problem to a solution! For some more traditional products the path from problem to solution is easily defined and the user doesn’t need to know how you got from one to the other. Let’s say the problem I am trying to solve is that people cannot get home from the train station after the bus service stops at night. An obvious solution would be a taxi service. The details of how you leased the cars and dispatch the drivers don’t matter too much to the user.
+
+But for data science products, we can’t always go directly from the problem to the solution. There are a few reasons for this.&#x20;
+
+<figure><img src="../../.gitbook/assets/DS_AI Toolkit - Explanation (1).png" alt=""><figcaption></figcaption></figure>
+
+**Firstly**, for more complex problems there is often more than one possible solution.&#x20;
+
+**Secondly**, many of the problems we wish to solve in the 21st Century are problems of knowledge, information and decision making rather than physical services. Therefore the requirements of the user can be hard to define or might be described in different terminology to what we are used to. This is typical work of a product manager.&#x20;
+
+**Thirdly**, the use of data and technical solutions can raise other considerations. For important decision making processes, users want to trust the part of the system that they cannot see. The responsible deployment of AI supported decisions require an ability to explain how they work. We might also have data that contains sensitive personal data that we need to carefully track \[LINK Data map or data model]. More practically speaking, we often don’t have access to the data we would like, so we have to adjust our proposed solution to match \[LINK What if I don’t have the data I want?]
+
+**Fourth**, the word ‘science’ in ‘data science’ can be misleading. Data science sometimes is more like an art than a science. At each stage, there are important micro-decisions to be made that can affect your solution downstream such as how to deal with missing data or which ML model to use. That said, there is a lot of knowledge shared online about how to work with data. Part of a data scientist's job is staying on top of this knowledge to be able to suggest how to go from one to the other \[LINK where to find DS guidance online].
+
+All the work of our hypothetical data scientist was between the raw data from the forum posts and producing a number, with no contact with the end-user to know about the problem they want to solve or how they might use the proposed solution. Worse still, we jumped to a solution we already knew without considering other ways and other solutions. As a result we had to find out that the user really wanted a percentage change indirectly; our data scientist should have been involved in the feedback sessions from the user \[LINK data science product management, scoping].
+
+Secondly, our poor data scientist was not prepared for the maintenance required for this feature to keep working smoothly. If there had been some monitoring in place, it would have been spotted that the dashboard was showing crazy numbers and that the URL format had changed. A simple check such as ‘Is the percentage change greater than X%?’ or ‘Is the percentage a real number or is it a NaN?’ Users want to have an experience from using a product that doesn’t change drastically from day to day. Unfortunately the world outside does change - the Problem Space in our diagram. So our technical infrastructure needs to be ready for that. We cannot anticipate all these changes in advance, but we can put things in place to validate and check our results to identify changes in the environment quickly, so we can fix them quickly. This can be a new set of challenges if your experience is from academic data science \[LINK: How data science is different from academia].

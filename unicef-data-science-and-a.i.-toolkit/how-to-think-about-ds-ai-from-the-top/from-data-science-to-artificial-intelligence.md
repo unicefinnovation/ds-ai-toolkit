@@ -1,0 +1,12 @@
+# From Data Science to Artificial Intelligence
+
+The term Artificial Intelligence is used a lot and often it is used to mean a specific part of the field of AI; Machine Learning. Machine learning is the process of using a computer to learn patterns from data. Predicting the amount of rain tomorrow or giving a probability that someone will click on an ad for a product are typical machine learning problems in industry. For a UNICEF Venture Fund company, a machine learning application could be to identify the most beneficial piece of learning content to suggest to a student or to quickly identify illness in newborns based on medical imaging on low tech devices.
+
+However we have talked about how important it is to start with the basics in data science; what data do we have, how is it represented and so on. In fact, some this has led some people to jokingly refer to data science as ‘[sophisticated counting](https://www.linkedin.com/pulse/3-reasons-counting-hardest-thing-data-science-bhavesh-jakhar/)’  Yet we want to be able to deploy frontier technology and the latest AI models in order to solve hard problems. How are we going to bridge that gap?
+
+The best way to think about this is that you need a solid foundation to build upon to do AI and DS is that foundation. If you begin to build a machine learning feature from your raw data before you understand that data and you have a stable database structure in place, then you will quickly run into trouble.&#x20;
+
+Monica Rogati described this as the ‘[Data Science Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)’ in a classic blog post. The idea here is that you need to carefully build the foundations of our data collection and your storage, understanding of that data before you start to implement sophisticated AI modeling. Now the use case she described was for a company making wearable devices for a very well developed market and so some of this might not apply to a Venture Fund use case \[LINK How DS/AI for VF is different]. For example, you might be taking data feeds from sensors that someone else is in charge of deploying so your ‘Collect’ step might be more straightforward. \
+
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAbzfvx4ApVfss4RIsaefAF2jHVzTC3iRlsBRLIcyW0GCiwLAr_JHJYPAUrLQgOpBMWAuwreKRC-by40hpITuCqCP51btkZqeQRL6zN93jBDt9Z2lKzfqUAvSjE1gqJGGQnRD6zEjpyeNokspjndrkD5oM?key=AzFKC2-hTxgjaEOVRGVcHQ" alt=""><figcaption></figcaption></figure>
